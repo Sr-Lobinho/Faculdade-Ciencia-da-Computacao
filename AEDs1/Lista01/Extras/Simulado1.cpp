@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 float calculaPreco(char c, float pA){
 	float aumento, pN = 0;
 	switch (c){
