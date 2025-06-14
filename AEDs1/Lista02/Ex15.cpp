@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 float calculaPotencia(float a, float x){
 	float i = 1.0;
 	if (x > 0){
