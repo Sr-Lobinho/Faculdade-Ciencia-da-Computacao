@@ -16,3 +16,4 @@ int main(int argc, char** argv) {
 	polaridade(n);
 	
 	return 0;
+}
