@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 void calculaPreco(){
 	int cod, quant = 0;
 	
