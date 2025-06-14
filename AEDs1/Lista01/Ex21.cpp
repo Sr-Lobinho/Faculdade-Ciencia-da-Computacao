@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 void verificaTipo(int n){
 	if (n%2 == 0){
 		cout << "O numero e par.";
