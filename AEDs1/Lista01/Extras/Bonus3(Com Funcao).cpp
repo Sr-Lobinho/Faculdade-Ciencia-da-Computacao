@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 bool checaBissexto(int a){
 	if ((a % 4 == 0 and a % 100 != 0) or (a % 400 == 0)){
 		cout << "O ano e bissexto!";
