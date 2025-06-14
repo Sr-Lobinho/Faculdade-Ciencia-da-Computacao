@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 void imprimeEstacao(int m){
 	if (m >= 3 and m < 6){
 		cout << "Outono!";
