@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 float calculaPreco(int P){
 	float v, qntd, IPI, total = 0;
 	cout << "Informe o valor da peca " << P << ": ";
