@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 float mediaIdade(){
 	float count = 0, soma = 0, idade = 0;
 	
