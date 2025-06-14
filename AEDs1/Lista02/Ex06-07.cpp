@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 void ImprimeNumero(int n1, int n2){
 	int soma = 0;
 	for (int i = n1 +1; i < n2; i++){
