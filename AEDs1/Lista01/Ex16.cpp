@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 int main(int argc, char** argv) {
 	int a, b, x = 0;
 	cout << "Digite o valor de a e de b respectivamente:" << endl;
