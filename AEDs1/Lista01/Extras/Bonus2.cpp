@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 float calculaImposto(float s){
 	float total = 0;
 	if (s < 1500){
