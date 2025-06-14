@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 int main(int argc, char** argv) {
 	int opcao = 0;
 	cout << "Informe um numero de 1 a 7: ";
