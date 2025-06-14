@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 int calculaHora(int a1, int an){
 	if (an > a1){
 		return an - a1;
