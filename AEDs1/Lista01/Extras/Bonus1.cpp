@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 bool funcaoTroca(int a, int b){
 	int x = 0;
 	if (a < b){
