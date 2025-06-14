@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 void polaridade(float n){
 	if (n < 0){
 		cout << "O numero e negativo.";
