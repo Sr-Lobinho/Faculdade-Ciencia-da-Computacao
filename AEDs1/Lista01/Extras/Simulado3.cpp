@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 int checaAlgo(int a, int b, int c, int d, int e, int f){
 	int soma = a + b + c + d + e + f;  
 	if (a == b and a == c){
