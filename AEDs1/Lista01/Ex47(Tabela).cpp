@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 main(int argc, char** argv) {
 	int i = 0;
 	cout << "Indice        Opcao" << endl; 
