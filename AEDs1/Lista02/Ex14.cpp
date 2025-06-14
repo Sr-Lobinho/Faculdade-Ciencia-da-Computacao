@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 void geraTabuada(){
 	int n = 0;
 	cout << "Informe um numero: ";
