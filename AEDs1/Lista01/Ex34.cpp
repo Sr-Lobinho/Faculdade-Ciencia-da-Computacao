@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 float mediaPonderada(float a, float b, float c) {
 	if (a >= b and a >= c) {
 		return (a * 4 + b * 3 + c * 3)/(4+3+3);
