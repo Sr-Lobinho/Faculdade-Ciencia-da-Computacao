@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 int transformaCase(float s){
 	if (s <= 200){
 		return 0;
