@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 int main(int argc, char** argv) {
 	float i = 0.0;
 	cout << "Informe o indice de poluicao atual: ";
