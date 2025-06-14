@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 void calculaQuantos(){
 	int imp = 0, par = 0, n = 0;
 	
