@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 void calculaCoisa(){
 	float n = 0, maior = 0, menor = 0, s = 0, i = 0; 
 	while(true){
