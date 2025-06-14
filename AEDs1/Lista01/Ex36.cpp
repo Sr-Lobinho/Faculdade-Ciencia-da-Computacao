@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 int main(int argc, char** argv) {
 	float altura, peso, imc, pesoi, dif = 0;
 	cout << "Informe sua altura: ";
