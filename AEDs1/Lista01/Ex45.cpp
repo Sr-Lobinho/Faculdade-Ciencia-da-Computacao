@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 int main(int argc, char** argv) {
 	int valor, resto, n100, n50, n10, n5, n1 = 0;
 	cout << "Informe um valor inteiro: ";
