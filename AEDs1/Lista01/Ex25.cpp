@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 bool verificaAngulo(int a, int b, int c){
 	int soma = 0;
 	soma += a + b + c;
