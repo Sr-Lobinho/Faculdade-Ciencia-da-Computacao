@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 float calculaPreco(float v1, float v2, float q1, float q2, float IPI){
 	return (v1*q1+v2*q2)*(IPI/100+1);
 }
