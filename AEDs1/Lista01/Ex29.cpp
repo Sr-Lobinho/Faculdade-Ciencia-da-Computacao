@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 float maiorValor(float a, float b, float c){
 	if (a >= b and a >= c){
 		return a;
