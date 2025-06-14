@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 float calculaPeso(float a, char s){
 	if (s == 'M'){
 		return (72.7 * a) - 58;
