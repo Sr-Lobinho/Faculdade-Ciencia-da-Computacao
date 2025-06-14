@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 main(int argc, char** argv) {
 	int cod, qntd = 0;
 	float total = 0;
