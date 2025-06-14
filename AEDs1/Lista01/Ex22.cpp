@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 void verificaPolaridadeTipo(int n){
 	if (n < 0){
 		cout << "O numero e negativo e ";
