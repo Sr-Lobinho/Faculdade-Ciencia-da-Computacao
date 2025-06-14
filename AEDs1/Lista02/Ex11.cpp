@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 int validaIdade(){
 	int i = 0;
 	do{
