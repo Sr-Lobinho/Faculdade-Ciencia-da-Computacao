@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 int main(int argc, char** argv) {
 	int cod = 0;
 	float s1, sn = 0.0;
