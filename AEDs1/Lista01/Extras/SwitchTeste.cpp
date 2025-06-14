@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 int main(int argc, char** argv) {
 	int opcao = 0;
 	cout << "0 - Calcular Fatorial" << endl << "1 - Calcular Primo" << endl << "2 - Calcular Dobro" << endl << "3 - Sair do Programa" << endl;
