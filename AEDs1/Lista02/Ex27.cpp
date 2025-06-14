@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 void votacao(int p){
 	int v1 = 0 , v2 = 0 , v3 = 0, vn = 0, opc = 0;
 	
