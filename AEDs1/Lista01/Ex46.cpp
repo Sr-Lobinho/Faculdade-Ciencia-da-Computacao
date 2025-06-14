@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 float calculaPreco(float kw){
 	float total = 0;
 	if (kw < 100){
