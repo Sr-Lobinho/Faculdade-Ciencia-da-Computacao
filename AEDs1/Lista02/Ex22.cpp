@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 void imprimeFatorial(){
 	while(true){
 		int n = 0, f = 1;
