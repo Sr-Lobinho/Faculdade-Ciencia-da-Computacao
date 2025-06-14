@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 void carteiraMotorista(int i){
 	if (i >= 18){
 		cout << "Voce esta apto para tirar a carteira de motorista. ";
