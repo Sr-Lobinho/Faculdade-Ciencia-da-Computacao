@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 void ambosPar(int a, int b){
 	if (a % 2 == 0 and b % 2 ==0){
 		cout << "Ambos a e b sao pares.";
