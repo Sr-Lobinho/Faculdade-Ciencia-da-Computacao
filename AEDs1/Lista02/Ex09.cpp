@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 int main(){
 	float n = 0.0;
 	do{
