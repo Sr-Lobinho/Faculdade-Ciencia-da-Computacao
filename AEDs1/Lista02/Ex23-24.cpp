@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 void verificaPrimo(){
 	int n = 0, count = 0;
 	
