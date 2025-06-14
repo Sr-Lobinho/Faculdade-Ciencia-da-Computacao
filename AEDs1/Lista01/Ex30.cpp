@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 bool verificaMultiplo(int a, int b){
 	if (a % b == 0 or b % a == 0){
 		return true;
