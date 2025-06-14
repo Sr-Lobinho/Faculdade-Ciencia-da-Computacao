@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 // ---------------------------------------------------------------Menu de exercicios-----------------------------------------------------------------------------
 // Exercicio 1
 void imprimeEmbaixo(){
