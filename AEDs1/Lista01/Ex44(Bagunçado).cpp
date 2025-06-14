@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 void imprimeCrescente(float a, float b, float c){
 	if (a <= b and b <= c){
 		cout << a << "," << b << "," << c;
