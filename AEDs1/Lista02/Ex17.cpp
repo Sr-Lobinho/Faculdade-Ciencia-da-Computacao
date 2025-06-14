@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 void imprimeFibo(double n){
 	double a, b, c, count = 0;
 	b = 1;
