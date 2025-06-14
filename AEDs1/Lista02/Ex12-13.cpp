@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 void calculaAnos(){
 	//int A = 80000, B = 200000, ano = 0;
 	
