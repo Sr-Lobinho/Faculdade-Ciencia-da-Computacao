@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 float mediaAritmetica(float a, float b, float c){
 	return (a+b+c)/3;
 }
