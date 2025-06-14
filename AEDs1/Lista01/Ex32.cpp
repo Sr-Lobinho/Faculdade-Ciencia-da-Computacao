@@ -1,3 +1,7 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
 void calculaRaizes(float a, float b, float c){
 	float delta, x1, x2 = 0;
 	delta = (b*b)-4*c*a;
