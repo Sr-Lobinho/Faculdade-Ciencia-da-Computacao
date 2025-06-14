@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 void imprimeFatorial(){
 	int n = 0, f = 1;
 	cout << "Informe o valor que deseja fatoriar: ";
