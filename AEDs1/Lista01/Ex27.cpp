@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 float mediaPonderada(float a, float b, float c){
 	
 	return (a * 2 + b * 3 + c * 5)/(2+3+5);
