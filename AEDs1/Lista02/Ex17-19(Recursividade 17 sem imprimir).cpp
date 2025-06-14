@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 int fatorial(int n){
 	if (n == 0){
 		cout << " = ";
