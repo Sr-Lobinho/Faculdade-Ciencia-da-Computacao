@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 void classificaIdade(int i){
 	if (i < 5){
 		cout << "Voce nao possui idade para natacao.";
