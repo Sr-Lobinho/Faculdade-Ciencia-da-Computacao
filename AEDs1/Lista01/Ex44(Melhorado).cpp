@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 float maior(float a, float b, float c){
 	float resultado = 0;
 	if ((a > b) and (a > c)){
