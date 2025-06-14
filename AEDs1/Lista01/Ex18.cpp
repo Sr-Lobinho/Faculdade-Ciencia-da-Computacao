@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 int verificarNota(int index){
 	float nota = 0;
 	cout << "Digite a nota " << index << ": ";
