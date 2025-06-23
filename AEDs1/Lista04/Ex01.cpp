@@ -4,7 +4,7 @@ using namespace std;
 void imprimeInverso(){
 	int vet[5];
 	for (int i = 0; i < 5; i++){
-		cout << "Informe um numero ("<< i +1 << "): ";
+		cout << "Informe o numero ("<< i +1 << "): ";
 		cin >> vet[i];
 	}
 	
