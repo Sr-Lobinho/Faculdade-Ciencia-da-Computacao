@@ -7,12 +7,12 @@ void leLog(float *vet){
 	for (int i = 0; i < 8; i++){
 		cout << "Informe um numero para a posicao " << i << ": ";
 		cin >> n;
-        if (n < 0){
-            vet[i] = -1;
-        }
-        else{
-		    vet[i] = log10(n);
-        }
+        	if (n < 0){
+            		vet[i] = -1;
+        	}
+        	else{
+		    	vet[i] = log10(n);
+        	}
 	}
 }
 
