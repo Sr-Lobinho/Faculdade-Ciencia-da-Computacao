@@ -7,7 +7,12 @@ void leRaiz(float *vet){
 	for (int i = 0; i < 15; i++){
 		cout << "Informe um numero para a posicao " << i << ": ";
 		cin >> n;
-		vet[i] = sqrt(n);
+        	if (n < 0){
+            		vet[i] = -1;
+        	}
+        	else{
+			vet[i] = sqrt(n);
+       		}
 	}
 }
 
