@@ -68,7 +68,7 @@ int main(){
     for (int i = 0; i < lin; i++) {
         terreno[i] = new int[col];
     }
-	 int valores[6][7] = {
+	 int valores[6][6] = {
         {1, 3, 3, 5, 6, 7},
         {2, 1, 2, 5, 7, 9},
         {2, 4, 5, 9, 2, 15},
