@@ -8,6 +8,10 @@ struct Aluno{
 	int tamnotas;
 	void preencheNotas(int inst){
 		cout << "Aluno " << inst <<  " :" << endl;
+		cout << "Informe o numero de matricula: ";
+		cin >> matricula;
+		cout << "Informe o nome: ";
+		cin >> nome;
 		cout << "Informe quantas notas deseja cadastrar: ";
 		cin >> tamnotas;
 		notas = new float[tamnotas];
