@@ -7,10 +7,10 @@ struct Aluno{
 	float *notas;
 	int tamnotas;
 	void preencheNotas(int inst){
+		cout << "Aluno " << inst <<  " :" << endl;
 		cout << "Informe quantas notas deseja cadastrar: ";
 		cin >> tamnotas;
 		notas = new float[tamnotas];
-		cout << "Aluno " << inst <<  " :" << endl;
 		for (int i = 0; i < tamnotas; i++){
 			do{
 				cout << "Informe a nota "<< i+1 << ": ";
