@@ -56,16 +56,31 @@ void somaMaior(int **m1, int tam1, int **m2, int tam2){
 	}
 }
 
+void zeraVet(int *vet, int tam){
+	for (int i = 0; i < tam; i ++){
+		vet[i] = 0;
+	}
+}
+
 void substituiNum(int **m, int tam, int num){
+	int *vet = new int[tam];
+	zeraVet(vet,tam);
 	for (int i = 0; i < tam; i ++){
 		for (int j = 0; j < tam; j ++){
 			if (m[i][j] == num){
 				m[i][j] = 0;
-				cout << "Substituicao feita na linha " << i << " coluna " << j << endl;
+				vet[j] += 1;
 			}
 		}
 	}
-	
+	int maior = 0, maiorid = 0;
+	for (int i = 0; i < tam; i++){
+		if (vet[i] > maior){
+			maior = vet[i];
+			maiorid = i;
+		}
+	}
+	cout << "A coluna com mais substituicoes foi a coluna " << maiorid+1<< endl;
 }
 
 int main(){
