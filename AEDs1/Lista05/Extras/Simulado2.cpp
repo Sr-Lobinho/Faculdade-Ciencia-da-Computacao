@@ -33,14 +33,14 @@ void somaMaior(int **m1, int tam1, int **m2, int tam2){
 	int soma1 = 0, soma2 = 0;
 	for (int i = 0; i < tam1; i ++){
 		for (int j =0; j < tam1; j++){
-			if (i != 0 and j != 1){
+			if (i != 0 or j != 1){
 				soma1 += m1[i][j];
 			}
 		}
 	}
 	for (int i = 0; i < tam2; i ++){
 		for (int j =0; j < tam2; j++){
-			if (i != 0 and j != 1){
+			if (i != 0 or j != 1){
 				soma2 += m2[i][j];
 			}
 		}
