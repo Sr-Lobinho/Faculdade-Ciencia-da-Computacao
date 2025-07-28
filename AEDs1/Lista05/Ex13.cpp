@@ -23,6 +23,7 @@ struct Agenda{
 		cout << "Informe o tamanho maximo da Agenda: ";
 		cin >> tam;
 		contatos = new Contato[tam];
+		numcontatos = 0;
 	}
 	void adicionaContato(){
 		if (numcontatos < tam){
