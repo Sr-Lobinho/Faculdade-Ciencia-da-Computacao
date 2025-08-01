@@ -16,12 +16,8 @@ void calculaMedia(string *nomes, float *salarios, int *setores, int tam){
 	zeraVetor(mediaset, contset);
 	
 	for (int i = 0; i < tam; i++){
-		for(int j = 0; j < 5; j++){
-			if(setores[i] == j+1){
-				mediaset[j] += salarios[i];
-				contset[j] += 1;
-			}
-		}
+		mediaset[setores[i] - 1] += salarios[i];
+		contset[setores[i]-1] += 1;
 		media += salarios[i];
 	}
 	for (int i = 0; i < 5; i++){
