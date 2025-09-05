@@ -24,5 +24,6 @@ class Livro{
 		
 		void setEditora(string editora);
 		string getEditora();
-	
 };
+
+#endif

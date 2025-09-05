@@ -9,29 +9,29 @@ Livro::Livro(){
 
 
 void Livro::setNome(string nome){
-	this.nome = nome;
+	this -> nome = nome;
 }
 string Livro::getNome(){
-	return this.nome;
+	return this -> nome;
 }
 
 void Livro::setAutor(string autor){
-	this.autor = autor;
+	this -> autor = autor;
 }
 string Livro::getAutor(){
-	return this.autor;
+	return this -> autor;
 }
 
 void Livro::setNumeroPaginas(int numeroPaginas){
-	this.numeroPaginas = numeroPaginas;
+	this -> numeroPaginas = numeroPaginas;
 }
 int Livro::getNumeroPaginas(){
-	return this.numeroPaginas;
+	return this -> numeroPaginas;
 }
 
 void Livro::setEditora(string editora){
-	this.editora = editora;
+	this -> editora = editora;
 }
 string Livro::getEditora(){
-	return this.editora;
+	return this -> editora;
 }
