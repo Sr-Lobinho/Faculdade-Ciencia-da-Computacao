@@ -18,3 +18,38 @@ Carro::Carro(const Carro & outro){
     this->valor = outro.getValor();
 }
 
+
+void Carro::setNome(string nome){
+    this->nome = nome;
+}
+string Carro::getNome(){
+    return this->nome;
+}
+
+void Carro::setMarca(string marca){
+    this->marca = marca;
+}
+string Carro::getMarca(){
+    return this->marca;
+}
+
+void Carro::setMotorizacao(string motorizacao){
+    this->motorizacao = motorizacao;
+}
+string Carro::getMotorizacao(){
+    return this->motorizacao;
+}
+
+void Carro::setCor(string cor){
+    this->cor = cor;
+}
+string Carro::getCor(){
+    return this->cor;
+}
+
+void Carro::setValor(float valor){
+    this->valor = valor;
+}
+float Carro::getValor(){
+    return this->valor;
+}
