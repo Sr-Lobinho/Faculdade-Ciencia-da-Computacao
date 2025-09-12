@@ -3,10 +3,10 @@
 using namespace std;
 
 Carro::Carro(){
-    nome = " ";
-    marca = " ";
-    motorizacao = " ";
-    cor = " ";
+    nome = "";
+    marca = "";
+    motorizacao = 0.0;
+    cor = "";
     valor = 0.0;
 }
 
@@ -17,6 +17,10 @@ Carro::Carro(const Carro & outro){
     this->cor = outro.getCor();
     this->valor = outro.getValor();
 }
+
+Carro::~Carro() {
+}
+
 
 void Carro::imprimir(){
     cout << "Nome: " << this->nome << endl;
@@ -39,6 +43,13 @@ void Carro::preencher(){
     cin >> this->valor;
 }
 
+void Carro::copiar(Carro& outro){
+    this->nome = outro.getNome();
+    this->marca = outro.getMarca();
+    this->motorizacao = outro.getMotorizacao();
+    this->cor = outro.getCor();
+    this->valor = outro.getValor();
+}
 
 void Carro::setNome(string nome){
     this->nome = nome;
@@ -54,10 +65,10 @@ string Carro::getMarca(){
     return this->marca;
 }
 
-void Carro::setMotorizacao(string motorizacao){
+void Carro::setMotorizacao(float motorizacao){
     this->motorizacao = motorizacao;
 }
-string Carro::getMotorizacao(){
+float Carro::getMotorizacao(){
     return this->motorizacao;
 }
 
@@ -74,3 +85,5 @@ void Carro::setValor(float valor){
 float Carro::getValor(){
     return this->valor;
 }
+
+
