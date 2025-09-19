@@ -89,7 +89,7 @@ void Lista::imprimir(){
 
 void Lista::preencher(){
 	for(int i = 0; i < tam; i ++){
-		insert();
+		insert(0);
 	}
 }
 
