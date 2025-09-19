@@ -33,7 +33,7 @@ void Livro::preencher(){
 	cout << "Informe o Titulo: ";
 	cin >> this->titulo;
 	cout << "Informe o Autor: ";
-	cin >> this->Autor;
+	cin >> this->autor;
 	cout << "Informe a Editora: ";
 	cin >> this->editora;
 	cout << "Informe a Edicao: ";
