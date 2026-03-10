@@ -43,9 +43,9 @@ public class Musica {
         this.titulo = ler.next();
         System.out.print("Informe o/a Artista: ");
         this.artista = ler.next();
-        System.out.print("Informe a Duracao: ");
+        System.out.print("Informe a Duracao(Minutos): ");
         this.duracao = ler.nextDouble();
-        System.out.print("Informe o Preco: ");
+        System.out.print("Informe o Preco: R$");
         this.preco = ler.nextDouble(); 
     }
     

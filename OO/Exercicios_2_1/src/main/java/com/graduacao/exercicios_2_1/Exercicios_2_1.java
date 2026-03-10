@@ -10,8 +10,12 @@ public class Exercicios_2_1 {
     public static void main(String[] args) {
         
         //exercicio05();
-        //exercicio08();
-        //exercicio10();
+        
+        System.out.println("=== Exercicio 08 ===");
+        exercicio08();
+        System.out.println("=== Exercicio 10 ===");
+        exercicio10();
+        System.out.println("=== Exercicio 11 ===");
         exercicio11();
     }
     
@@ -31,20 +35,21 @@ public class Exercicios_2_1 {
     
     public static void exercicio08(){
         Musica m1 = new Musica();
-        
         m1.preencher();
         
         System.out.println(m1);
         m1.tocarMusica();
-        
+
         m1.desligarMusica();
     }
     
-    
     public static void exercicio10(){
         Casa c1 = new Casa("Rua das Gaivotas, 413", 200, 3, 950000);
+        System.out.println("Casa 01: " + c1);
+        System.out.println("Casa 02: ");
         Casa c2 = new Casa();
         c2.preencher();
+        System.out.println("Casa 03: ");
         Casa c3 = new Casa();
         c3.preencher();
         
@@ -70,8 +75,11 @@ public class Exercicios_2_1 {
         Ativo a1 = new Ativo();
         Ativo a2 = new Ativo();
         Ativo a3 = new Ativo();
+        System.out.println("Ativo 01: ");
         a1.preencher();
+        System.out.println("Ativo 02: ");
         a2.preencher();
+        System.out.println("Ativo 03: ");
         a3.preencher();
         
         System.out.println("--- Resumo da Carteira ---");

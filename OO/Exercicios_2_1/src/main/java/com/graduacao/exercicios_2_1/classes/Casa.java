@@ -53,9 +53,9 @@ public class Casa {
     public void exibirResumo(){
         System.out.println(this.endereco +
                " | " + this.area +
-               "m² | " + this.num_quartos +
+               "m2 | " + this.num_quartos +
                " | R$" + this.preco +
-               " | R$" + this.calcularPrecoPorM2() + "/m² ");
+               " | R$" + this.calcularPrecoPorM2() + "/m2 ");
     }
     
     
@@ -66,7 +66,7 @@ public class Casa {
     public String toString(){
         return "Casa { Endereco: " + this.endereco +
                " - Area: " + this.area +
-               "m² - Numero de Quartos: " + this.num_quartos +
+               "m2 - Numero de Quartos: " + this.num_quartos +
                " - Preco: R$" + this.preco + " }";
     }
     
