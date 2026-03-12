@@ -1,0 +1,85 @@
+
+
+package com.graduacao.projetocadmusica;
+
+import com.graduacao.projetocadmusica.classes.Musica;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+
+
+public class ProjetoCadMusica {
+    public static int imprimeMenu(){
+        Scanner ler = new Scanner(System.in);
+
+        System.out.println("-----------------------------");
+        System.out.println("1 - Inserir Musica");
+        System.out.println("2 - Remover Musica");
+        System.out.println("3 - Pesquisar Musica (titulo)");
+        System.out.println("4 - Pesquisar Musica (artista)");
+        System.out.println("0 - Sair");
+        System.out.println("-----------------------------");
+        System.out.println("Escolha uma opcao:");
+        
+        return ler.nextInt();
+    }
+    
+    public static void main(String[] args) {
+        List<Musica> listaMusicas = new ArrayList<Musica>();
+        Scanner ler = new Scanner(System.in);
+        int opcao = 0;
+        
+        
+        do{
+            opcao = imprimeMenu();
+            switch(opcao){
+                case 1 -> {
+                    Musica m = new Musica();
+                    m.preencher();
+                    listaMusicas.add(m);
+                }
+                case 2 -> {
+                    System.out.print("Informe o titulo: ");
+                    String titulo = ler.nextLine();
+                    
+                    for(Musica mi: listaMusicas){
+                        if (titulo.equals(mi.getTitulo())){
+                            System.out.println("Musica encontrada");
+                            listaMusicas.remove(mi);
+                        }
+                    }
+                }
+                    
+                case 3 -> {
+                    System.out.print("Informe o titulo: ");
+                    String titulo = ler.nextLine(); 
+                    
+                    for (Musica mi: listaMusicas){
+                        if (titulo.equals(mi.getTitulo())){
+                            System.out.println(mi);
+                        }
+                        
+                    }
+                }
+                case 4 -> {
+                    System.out.print("Informe o artista: ");
+                    String artista = ler.nextLine();
+                    
+                    for (Musica mi: listaMusicas){
+                        if(artista.equals(mi.getArtista())){
+                            System.out.println(mi);
+                        }
+                    }
+                }
+                 
+                    
+                
+            }
+            
+            
+        }while(opcao != 0);
+        
+        
+    }
+}
