@@ -6,6 +6,11 @@ import java.util.Scanner;
 
 public class Exercicios_2_2 {
 
+    // Não seria melhor criar um atributo  "private Scanner ler;" ao invés de criar um objeto em cada função?
+    
+    
+    
+    
     public static int imprimeMenu(){
         Scanner ler = new Scanner(System.in);
         System.out.println("--------Exercicios2.2--------");
